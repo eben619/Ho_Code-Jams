@@ -8,8 +8,8 @@
   
 <b>* Finding wallet applications</b><br>
   There are currently some compatible wallets for Celo and other EVM compatible networks.<br>
-  *Metamask <a href="https://metamask.io/download/" target='_blank'>Click Here To Download Metamask</a><br>
-  *Trustwallet <a href="https://trustwallet.com/download" target='_blank'>Click Here To Download Trustwallet</a><br>
+  Metamask <a href="https://metamask.io/download/" target='_blank'>Click Here To Download Metamask</a><br>
+  Trustwallet <a href="https://trustwallet.com/download" target='_blank'>Click Here To Download Trustwallet</a><br>
 
 <b>* Connecting to Celo Alfajores testnet</b><br>
 * <a href="http://alfajores.celoscan.io" rel="noreferrer">Celo's Alfajores Testnet Explorer</a>
@@ -73,9 +73,11 @@ Tuples- Group multiple values (e.g., (uint, string, address)).
 
 
 
-## Hands on coding - Remix
+## HANDS ON CODING - Remix IDE
 
 * Remix interface (overview)
+
+  <img src="">
 
 ### References for Remix
 
