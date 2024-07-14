@@ -85,15 +85,15 @@ Tuples- Group multiple values (e.g., (uint, string, address)).
   <img src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/Remix.png">
 
   The Remix interface can be broken down into 3 main sections-
-* Sidebar
+* Sidebar (Section 1)
     * File explorer - This is where you can create, open, and save files.
     * Search - This is where you can search in your files.
     * Solidity Compiler - This is where you can compile your smart contract.
     * Deploy & Run Transactions - This is where you can deploy and interact with your smart contract.
     * Solidity Unit Testing - This is where you can run unit tests for your smart contract.
 
-* Editor - This is where you can write your smart contract code.
-* Terminal - This is where you will see outputs from different actions like compiling, deploying, and running tests.
+* Editor (Section 2) - This is where you can write your smart contract code.
+* Terminal (Section 3) - This is where you will see outputs from different actions like compiling, deploying, and running tests.
 
 ### References for Remix
 
