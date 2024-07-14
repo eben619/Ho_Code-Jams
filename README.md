@@ -12,9 +12,8 @@
   *Trustwallet <a href="https://trustwallet.com/download" target='_blank'>Click Here To Download Trustwallet</a><br>
 
 <b>* Connecting to Celo Alfajores testnet</b><br>
-* <a href="https://alfajores.celoscan.io/" target='_blank' rel="noreferrer noopener">Celo's Alfajores Testnet Explorer</a>
-* <a href="https://faucet.celo.org/alfajores" target='_blank' rel="noreferrer noopener">Funding Your Wallet With Testnet Tokens</a>
-
+* <a href="#" onclick='window.open("http://alfajores.celoscan.io");return false;'>Celo's Alfajores Testnet Explorer</a>
+* <a href="#" onclick='window.open("http://faucet.celo.org/alfajores");return false;'>Funding Your Wallet With Testnet Tokens</a>
 
 ## How ethereum works
 
