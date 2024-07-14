@@ -96,27 +96,17 @@ Tuples- Group multiple values (e.g., (uint, string, address)).
 * Editor (Section 2) - This is where you can write your smart contract code.
 * Terminal (Section 3) - This is where you will see outputs from different actions like compiling, deploying, and running tests.
 
-### References for Remix
-
-<https://remix-ide.readthedocs.io/en/latest/>
-
-## Coding HelloWorld.sol contract with Solidity
-
-* Solidity philosophy
-* OOP basics of Solidity
-* Contract Structure
+** Contract Structure
   * SPDX License Identifier
   * Pragmas
   * Imports
   * Comments
-  * Contract definition
-* State Variables
-* Contract Storage
-* Constructor function
-* Functions
-* Return values
+  * State Variables
+  * Contract Storage
+  * Constructor function
+  * Functions
 
-### Code Reference
+### Coding A Simple Smart Contract
 
 ```solidity
 // SPDX-License-Identifier: GPL-3.0
