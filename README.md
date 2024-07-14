@@ -13,8 +13,8 @@
 
 <b>* Connecting to Celo Alfajores testnet</b><br>
 * <a href="https://alfajores.celoscan.io/" target='_blank'>Celo's Alfajores Testnet Explorer</a>
-* Funding your testnet wallet with a Faucet
-* Sending a native token (ETH) transaction
+* <a href="https://faucet.celo.org/alfajores" target='_blank'>Funding Your Wallet With Testnet Tokens</a>
+
 
 ## How ethereum works
 
