@@ -17,6 +17,17 @@
 
 ## ETHEREUM & THE EVM (Ethereum Virtual Machine)
 
+Ethereum is characterised by Turing completeness, as the EVM allows any computation to be performed if adequate resources are provided.
+In simple terms  it is able to use its code base to perform virtually any task, as long as it has the correct instructions, enough time and processing power.
+
+Ethereum started as a way to make a general-purpose blockchain that could be programmed for a variety of uses. But very quickly, Ethereum’s vision expanded to become a platform for programming DApps. DApps represent a broader perspective than smart contracts. A DApp is, at the very least, a smart contract and a web user interface. More broadly, a DApp is a web application that is built on top of open, decentralized, peer-to-peer infrastructure services.
+
+A DApp is composed of at least:
+
+* Smart contracts on a blockchain
+* A web frontend user interface
+  
+## COMMON TERMS USED IN WEB3
 * Transactions (Ethereum transactions are network messages that include (among other things) a sender, recipient, value, and data payload.)
 * Data Structures (Ethereum’s state is stored locally on each node as a database (usually Google’s LevelDB), which contains the transactions and       system state in a serialized hashed data structure called a Merkle Patricia Tree.)
 * Gas 
