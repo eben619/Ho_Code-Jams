@@ -199,21 +199,6 @@ Join the Celo Ghana Developers Community
 
 <img width="200px" src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/CeloGhanaCommunity.jpg" align="center" alt="Celo Ghana WhatsApp" />
 
-<!-- ROADMAP -->
-
-## Roadmap
-
-See the [open issues](https://github.com/celo-org/celo-composer/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-We welcome contributions from the community.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## License
 
@@ -221,8 +206,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
+Ernest Akakpo ( Community Manager [Ghana] )
+email: korkuernest@gmail.com
 
-- [@CeloDevs](https://twitter.com/CeloDevs)
-- [Discord](https://discord.com/invite/celo)
+Ebenezer Agyenim-Boateng ( Blockchain Developer )
+email: ebenyawboateng72@gmail.com
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
