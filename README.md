@@ -6,8 +6,8 @@
   Wallets are tools that create accounts, manage keys, and help users transact on the Celo network.
   It's important to be careful when choosing a wallet because they manage your secret account keys. You should only use reputable wallets that are    well maintained by organizations/people that you trust.
   
-<b>* Finding wallet applications</br><br>
-  There are currently some compatible wallets for Celo and other EVM compatible networks.
+<b>* Finding wallet applications</b><br>
+  There are currently some compatible wallets for Celo and other EVM compatible networks.<br>
   *Metamask <a href="https://metamask.io/download/">Click Here To Download Metamask</a><br>
   *Trustwallet <a href="https://trustwallet.com/download">Click Here To Download Trustwallet</a><br>
 
