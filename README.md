@@ -47,16 +47,17 @@ A DApp is composed of at least:
 
 Solidity is an EVM compatible language which supports a variety of data types that can be categorized mainly into value types and reference types. Other types such as function types and Tuples also exist.
 
-<b>*Value Types</b>
+<b>*Value Types</b>-
 Boolean, Integers, Fixed Point Numbers, Address, Bytes, String, Enums.
 
-<b>*Reference Types</b>
+<b>*Reference Types</b>-
 Arrays, Structs, Mappings.
 
-<b>*Other Types</b>
+<b>*Other Types</b>-
 Function types- Can be internal or external (e.g., function (uint) external returns (bool))
 Tuples- Group multiple values (e.g., (uint, string, address)).
 
+<img src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/function.avif">
 
 
 
