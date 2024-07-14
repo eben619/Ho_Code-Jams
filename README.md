@@ -195,7 +195,9 @@ Checkout [social connect docs](https://github.com/celo-org/social-connect) to le
 
 ## Support
 
-Join the Celo Discord server at <https://chat.celo.org>. Reach out on the dedicated repo channel [here](https://discord.com/channels/600834479145353243/941003424298856448).
+Join the Celo Ghana Developers Community
+
+<img width="" src="https://drive.google.com/file/d/1r_kBO5KomAw-ipP9k3pQGFBUCd65chh2/view?usp=drive_link" align="center" alt="Celo Ghana WhatsApp" />
 
 <!-- ROADMAP -->
 
