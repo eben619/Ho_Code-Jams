@@ -77,7 +77,7 @@ Tuples- Group multiple values (e.g., (uint, string, address)).
 
 * Remix interface (overview)
 
-  <img src="">
+  <img src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/Remix.png">
 
 ### References for Remix
 
