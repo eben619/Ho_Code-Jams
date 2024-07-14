@@ -84,7 +84,7 @@ Tuples- Group multiple values (e.g., (uint, string, address)).
 
   <img src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/Remix.png">
 
- <a href="https://remix.ethereum.org/">REMIX IDE</a>
+ <a href="https://remix.ethereum.org/">REMIX IDE</a><br>
   The Remix interface can be broken down into 3 main sections-
 * Sidebar (Section 1)
     * File explorer - This is where you can create, open, and save files.
