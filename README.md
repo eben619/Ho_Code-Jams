@@ -15,13 +15,14 @@
 * <a href="http://alfajores.celoscan.io" rel="noreferrer">Celo's Alfajores Testnet Explorer</a>
 * <a href="http://faucet.celo.org/alfajores" rel="noreferrer">Funding Your Wallet With Testnet Tokens</a>
 
-## How ethereum works
+## ETHEREUM & THE EVM (Ethereum Virtual Machine)
 
-* Explaining Etherscan
-* Transactions
-* Gas
+* Transactions (Ethereum transactions are network messages that include (among other things) a sender, recipient, value, and data payload.)
+* Data Structures (Ethereum’s state is stored locally on each node as a database (usually Google’s LevelDB), which contains the transactions and       system state in a serialized hashed data structure called a Merkle Patricia Tree.)
+* Gas 
 * Blocks
-* Consensus and finality
+* Consensus and finality (Ethereum’s consensus rules are defined in the reference specification, the Yellow Paper <a       href="https://ethereum.github.io/yellowpaper/paper.pdf" rel="noreferrer">(see Further Reading)</a> .
+* Deterministic
 * State changes
 * The EVM
 * Accounts
