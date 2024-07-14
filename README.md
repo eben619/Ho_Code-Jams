@@ -197,7 +197,7 @@ Checkout [social connect docs](https://github.com/celo-org/social-connect) to le
 
 Join the Celo Ghana Developers Community
 
-<img width="200px" src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/CeloGhanaCommunity.jpg" align="center" alt="Celo Ghana WhatsApp" />
+<img width="400px" src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/CeloGhanaCommunity.jpg" align-items="center" alt="Celo Ghana WhatsApp" />
 
 
 ## License
