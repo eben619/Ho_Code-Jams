@@ -5,12 +5,15 @@
 <b>* What is a wallet</b><br>
   Wallets are tools that create accounts, manage keys, and help users transact on the Celo network.
   It's important to be careful when choosing a wallet because they manage your secret account keys. You should only use reputable wallets that are    well maintained by organizations/people that you trust.
-* Finding wallet applications<br>
-  There are currently a few other compatible wallets.
-* Using metamasks
-* Creating a public-private key pair
-* Connecting to Sepolia testnet
-* Funding my wallet with a Faucet
+  
+<b>* Finding wallet applications</br><br>
+  There are currently some compatible wallets for Celo and other EVM compatible networks.
+  *Metamask <a href="https://metamask.io/download/">Click Here To Download Metamask</a><br>
+  *Trustwallet <a href="https://trustwallet.com/download">Click Here To Download Trustwallet</a><br>
+
+<b>* Connecting to Celo Alfajores testnet</b><br>
+  
+* Funding your testnet wallet with a Faucet
 * Sending a native token (ETH) transaction
 
 ## How ethereum works
