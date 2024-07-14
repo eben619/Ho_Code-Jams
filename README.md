@@ -96,7 +96,7 @@ Tuples- Group multiple values (e.g., (uint, string, address)).
 * Editor (Section 2) - This is where you can write your smart contract code.
 * Terminal (Section 3) - This is where you will see outputs from different actions like compiling, deploying, and running tests.
 
-** Contract Structure
+* Contract Structure
   * SPDX License Identifier
   * Pragmas
   * Imports
