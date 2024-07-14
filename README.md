@@ -1,6 +1,6 @@
-# Lesson 1 - Introduction
+<p ></p>
 
-## WALLETS & TRANSACTIONS
+### WALLETS & TRANSACTIONS
 
 <b>* What is a wallet</b><br>
   Wallets are tools that create accounts, manage keys, and help users transact on the Celo network.
@@ -15,7 +15,7 @@
 * <a href="http://alfajores.celoscan.io" rel="noreferrer">Celo's Alfajores Testnet Explorer</a>
 * <a href="http://faucet.celo.org/alfajores" rel="noreferrer">Funding Your Wallet With Testnet Tokens</a>
 
-## CELO, ETHEREUM & THE EVM (Ethereum Virtual Machine).
+### CELO, ETHEREUM & THE EVM (Ethereum Virtual Machine).
 
 Ethereum is characterised by Turing completeness, as the EVM allows any computation to be performed if adequate resources are provided.
 In simple terms  it is able to use its code base to perform virtually any task, as long as it has the correct instructions, enough time and processing power.
@@ -29,7 +29,7 @@ A DApp is composed of at least:
 * Smart contracts on a blockchain
 * A web frontend user interface
   
-## COMMON TERMS USED IN WEB3
+### COMMON TERMS USED IN WEB3
 
 * Blockchain (A database maintained by a distributed set of computers that do not share a trust relationship or common ownership. This arrangement     is referred to as decentralized. The content of a blockchain's database, or ledger, is authenticated using cryptographic techniques, preventing     its contents being edited or removed except according to a protocol's consensus mechanism)
   
@@ -55,7 +55,7 @@ A DApp is composed of at least:
   
 * Web3 Provider (Providers take JSON-RPC requests and return the response.)
 
-## INTRODUCTION TO SOLIDITY
+### INTRODUCTION TO SOLIDITY
 
 Solidity is an EVM compatible language which supports a variety of data types that can be categorized mainly into value types and reference types. Other types such as function types and Tuples also exist.
 
@@ -69,19 +69,19 @@ Arrays, Structs, Mappings.
 Function types- Can be internal or external (e.g., function (uint) external returns (bool))<br>
 Tuples- Group multiple values (e.g., (uint, string, address)).
 
-# Basic Structure Of A Function In Solidity: 
+### Basic Structure Of A Function In Solidity: 
 
 <img src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/function.avif" width="500px">
 
 
 
-## HANDS ON CODING - Remix IDE
+### HANDS ON CODING - Remix IDE
 * REQUIREMENTS
   * Web Browser (Chrome)
   * Internet Connection
   * Web3 Wallet (MetaMask)
   
-## REMIX INTERFACE (overview)
+### REMIX INTERFACE (overview)
   
 
   <img src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/Remix.png">
@@ -126,29 +126,6 @@ contract HelloWorld {
 ### References for Solidity
 
 <https://docs.soliditylang.org/en/latest/>
-
-## Compiling and deploying
-
-* Compilation parameters
-  * Compiler version
-  * EVM Version
-  * Optimization
-* Bytecode
-* ABI
-* Deployment parameters
-  * Environment
-  * Account
-  * Gas
-  * Contract
-* Deploying
-* Attaching
-
-## Homework
-
-* Create Github Issues with your questions about this lesson
-* Read introduction and topics table from references
-
-<!-- GETTING STARTED -->
 
 ## 🔭 Learning Solidity
 
