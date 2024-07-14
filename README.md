@@ -36,21 +36,29 @@ A DApp is composed of at least:
 * Data Structures (Ethereum’s state is stored locally on each node as a database, which contains the transactions and system state in a serialized     hashed data structure called a Merkle Patricia Tree.)
 * Gas (A step of execution of a smart contract. Different operations consume different amounts of gas. To prevent denial-of-service attacks,           transactions specify a maximum gas which bounds the steps of execution before a transaction is reverted.)
 * Blocks (The unit of update to the blockchain. A block consists of a header identifying its position in the chain and other metadata, and a body      that contains a list of transactions, and data structures that describe the new state after executing those transactions.)
-* Consensus and finality (Ethereum’s consensus rules are defined in the reference specification, the Yellow Paper <a       href="https://ethereum.github.io/yellowpaper/paper.pdf" rel="noreferrer">(see Further Reading)</a> .
+* Consensus and finality (Ethereum’s consensus rules are defined in the reference specification, the Yellow Paper <a       href="https://ethereum.github.io/yellowpaper/paper.pdf" rel="noreferrer">(see Further Reading)</a>
+* Private Key ()
+* Public Key ()
 * Node (A node is a computer that runs the Ethereum client software and is connected to other nodes on the network. These nodes work together to       verify transactions )
 * JSON-RPC (JSON-RPC is used to communicate with the node through a Web3 provider, a software component that exposes a JSON-RPC API to the client     application)
 * Web3 Provider (Providers take JSON-RPC requests and return the response.)
 
+## INTRODUCTION TO SOLIDITY
 
-## Trying it out
+Solidity is an EVM compatible language which supports a variety of data types that can be categorized mainly into value types and reference types. Other types such as function types and Tuples also exist.
 
-* Using Uniswap as an example
-* What is a dApp
-* Swap transaction example
+<b>*Value Types</b>
+Boolean, Integers, Fixed Point Numbers, Address, Bytes, String, Enums.
 
-## Contract interaction: Token Swap
+<b>*Reference Types</b>
+Arrays, Structs, Mappings.
 
-* What is a state change inside a smart contract operation
+<b>*Other Types</b>
+Function types- Can be internal or external (e.g., function (uint) external returns (bool))
+Tuples- Group multiple values (e.g., (uint, string, address)).
+
+
+
 
 ## Hands on coding - Remix
 
