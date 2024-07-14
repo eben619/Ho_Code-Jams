@@ -2,7 +2,7 @@
 
 ## Wallets and transactions
 
-* What is a wallet<br>
+<b>* What is a wallet<b><br>
   Wallets are tools that create accounts, manage keys, and help users transact on the Celo network.
   It's important to be careful when choosing a wallet because they manage your secret account keys. You should only use reputable wallets that are    well maintained by organizations/people that you trust.
 * Finding wallet applications<br>
