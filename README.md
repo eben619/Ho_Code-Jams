@@ -57,7 +57,7 @@ Arrays, Structs, Mappings.
 Function types- Can be internal or external (e.g., function (uint) external returns (bool))
 Tuples- Group multiple values (e.g., (uint, string, address)).
 
-<img src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/function.avif" width="250px">
+<img src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/function.avif" width="500px">
 
 
 
