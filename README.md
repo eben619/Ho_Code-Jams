@@ -1,6 +1,6 @@
 # Lesson 1 - Introduction
 
-## Wallets and transactions
+## WALLETS & TRANSACTIONS
 
 <b>* What is a wallet</b><br>
   Wallets are tools that create accounts, manage keys, and help users transact on the Celo network.
@@ -15,7 +15,7 @@
 * <a href="http://alfajores.celoscan.io" rel="noreferrer">Celo's Alfajores Testnet Explorer</a>
 * <a href="http://faucet.celo.org/alfajores" rel="noreferrer">Funding Your Wallet With Testnet Tokens</a>
 
-## ETHEREUM & THE EVM (Ethereum Virtual Machine)
+## CELO, ETHEREUM & THE EVM (Ethereum Virtual Machine).
 
 Ethereum is characterised by Turing completeness, as the EVM allows any computation to be performed if adequate resources are provided.
 In simple terms  it is able to use its code base to perform virtually any task, as long as it has the correct instructions, enough time and processing power.
@@ -45,9 +45,9 @@ A DApp is composed of at least:
   
 * Consensus and finality (Ethereum’s consensus rules are defined in the reference specification, the Yellow Paper <a       href="https://ethereum.github.io/yellowpaper/paper.pdf" rel="noreferrer">(see Further Reading)</a>
 
-* Private Key ()
+* Private Key (A private key is a long, randomly generated number that serves as a cryptographic key in blockchain networks. It is used to sign         transactions and prove ownership of blockchain addresses and the assets within them.)
   
-* Public Key ()
+* Public Key (A public key is a cryptographic code used to facilitate secure transactions and interactions on a blockchain network. It is derived       from a private key and can be openly shared without compromising the security of the associated assets.)
   
 * Node (A node is a computer that runs the Ethereum client software and is connected to other nodes on the network. These nodes work together to       verify transactions )
   
