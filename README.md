@@ -8,11 +8,11 @@
   
 <b>* Finding wallet applications</b><br>
   There are currently some compatible wallets for Celo and other EVM compatible networks.<br>
-  *Metamask <a href="https://metamask.io/download/" target="_blank">Click Here To Download Metamask</a><br>
-  *Trustwallet <a href="https://trustwallet.com/download" target="_blank">Click Here To Download Trustwallet</a><br>
+  *Metamask <a href="https://metamask.io/download/" target='_blank'>Click Here To Download Metamask</a><br>
+  *Trustwallet <a href="https://trustwallet.com/download" target='_blank'>Click Here To Download Trustwallet</a><br>
 
 <b>* Connecting to Celo Alfajores testnet</b><br>
-  
+* <a href="https://alfajores.celoscan.io/" target='_blank'>Celo's Alfajores Testnet Explorer</a>
 * Funding your testnet wallet with a Faucet
 * Sending a native token (ETH) transaction
 
