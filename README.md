@@ -206,10 +206,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
-Ernest Akakpo ( Community Manager [Ghana] )
+Ernest Akakpo ( Community Manager [Ghana] )<br>
 email: korkuernest@gmail.com
 
-Ebenezer Agyenim-Boateng ( Blockchain Developer )
+Ebenezer Agyenim-Boateng ( Blockchain Developer )<br>
 email: ebenyawboateng72@gmail.com
 
 
