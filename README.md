@@ -92,8 +92,8 @@ Tuples- Group multiple values (e.g., (uint, string, address)).
     * Deploy & Run Transactions - This is where you can deploy and interact with your smart contract.
     * Solidity Unit Testing - This is where you can run unit tests for your smart contract.
 
-  * Editor - This is where you can write your smart contract code.
-  * Terminal - This is where you will see outputs from different actions like compiling, deploying, and running tests.
+* Editor - This is where you can write your smart contract code.
+* Terminal - This is where you will see outputs from different actions like compiling, deploying, and running tests.
 
 ### References for Remix
 
