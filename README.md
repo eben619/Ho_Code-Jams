@@ -99,7 +99,7 @@ Tuples- Group multiple values (e.g., (uint, string, address)).
 
 📧 Learn the [Solidity globals and units](https://solidity.readthedocs.io/en/v0.8.19/units-and-global-variables.html)
 
-### Hands On Coding - Remix IDE 💻
+### 💻 Hands On Coding - Remix IDE
 * REQUIREMENTS
   * Web Browser (Chrome)
   * Internet Connection
