@@ -25,7 +25,6 @@ Ethereum started as a way to make a general-purpose blockchain that could be pro
 In terms of programmability, Celo is similar to Ethereum. Both networks run the Ethereum Virtual Machine (EVM) to support smart contract functionality. This means that all programming languages, developer tooling and standards that target the EVM are relevant for both Celo and Ethereum.
 
 A DApp is composed of at least:
-
 * Smart contracts on a blockchain
 * A web frontend user interface
   
@@ -100,7 +99,7 @@ Tuples- Group multiple values (e.g., (uint, string, address)).
 
   <img src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/Remix.png">
 
- Visit <a href="https://remix.ethereum.org/">REMIX IDE</a> to use the IDE.<br> 
+ Visit <a href="https://remix.ethereum.org/">REMIX IDE</a> to use this IDE.<br> 
   The Remix interface can be broken down into 3 main sections-
 * Sidebar (Section 1)
     * File explorer - This is where you can create, open, and save files.
