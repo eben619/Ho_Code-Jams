@@ -65,6 +65,8 @@ A DApp is composed of at least:
   
 * Web3 Provider (Providers take JSON-RPC requests and return the response.)
 
+* Contract ABI ( "ABI" stands for Application Binary Interface in the context of Ethereum smart contracts. It specifies how to interact with a smart contract deployed on the blockchain.)
+
 ### Introduction To Solidity.
 
 Solidity is an EVM compatible language which supports a variety of data types that can be categorized mainly into value types and reference types. Other types such as function types and Tuples also exist.
