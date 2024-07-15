@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="" alt="Celo Logo">
-<p >CELO AFRICA DAO</p>
+  <img src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/celo_isotype.svg" alt="Celo Logo">
+<h1 >CELO AFRICA DAO</h1>
 </div>
 
 ### 🔄WALLETS & TRANSACTIONS
