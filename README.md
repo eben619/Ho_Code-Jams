@@ -3,7 +3,15 @@
 <h1 >CELO AFRICA DAO</h1>
 </div>
 
-### 🔄WALLETS & TRANSACTIONS
+## INTRODUCTION
+
+### 🌐 What Is Web3?
+Web3, also known as the decentralized web, represents the next generation of the internet, where users have control over their data and interactions are facilitated directly between parties without the need for intermediaries. Unlike Web2, which is dominated by centralized platforms, Web3 leverages blockchain technology to ensure transparency, security, and decentralization. It encompasses a wide array of technologies and concepts, including cryptocurrencies, smart contracts, decentralized finance (DeFi), and decentralized autonomous organizations (DAOs).
+
+### Celo Foundation’s Role in the Web3 Ecosystem
+Celo Foundation is at the forefront of the Web3 revolution, driving the adoption of decentralized finance and promoting financial inclusion worldwide. By leveraging blockchain technology, the foundation is working to create a more equitable and accessible financial system, paving the way for a future where everyone can participate in the global economy.
+
+### 💱 Wallets & Transactions
 
 <b>* What is a wallet</b><br>
   Wallets are tools that create accounts, manage keys, and help users transact on the Celo network.
@@ -18,7 +26,7 @@
 * <a href="http://alfajores.celoscan.io" rel="noreferrer">Celo's Alfajores Testnet Explorer</a>
 * <a href="http://faucet.celo.org/alfajores" rel="noreferrer">Funding Your Wallet With Testnet Tokens</a>
 
-### CELO, ETHEREUM & THE EVM (Ethereum Virtual Machine).
+### Celo, Ethereum & The Evm (Ethereum Virtual Machine).
 
 Ethereum is characterised by Turing completeness, as the EVM allows any computation to be performed if adequate resources are provided.
 In simple terms  it is able to use its code base to perform virtually any task, as long as it has the correct instructions, enough time and processing power.
@@ -31,7 +39,7 @@ A DApp is composed of at least:
 * Smart contracts on a blockchain
 * A web frontend user interface
   
-### COMMON TERMS USED IN WEB3
+### 🌐 Common Terms Used In Web3.
 
 * Blockchain (A database maintained by a distributed set of computers that do not share a trust relationship or common ownership. This arrangement     is referred to as decentralized. The content of a blockchain's database, or ledger, is authenticated using cryptographic techniques, preventing     its contents being edited or removed except according to a protocol's consensus mechanism)
   
@@ -57,7 +65,7 @@ A DApp is composed of at least:
   
 * Web3 Provider (Providers take JSON-RPC requests and return the response.)
 
-### INTRODUCTION TO SOLIDITY
+### Introduction To Solidity.
 
 Solidity is an EVM compatible language which supports a variety of data types that can be categorized mainly into value types and reference types. Other types such as function types and Tuples also exist.
 
@@ -91,13 +99,13 @@ Tuples- Group multiple values (e.g., (uint, string, address)).
 
 📧 Learn the [Solidity globals and units](https://solidity.readthedocs.io/en/v0.8.19/units-and-global-variables.html)
 
-### HANDS ON CODING - Remix IDE
+### Hands On Coding - Remix IDE 💻
 * REQUIREMENTS
   * Web Browser (Chrome)
   * Internet Connection
   * Web3 Wallet (MetaMask)
   
-### REMIX INTERFACE (overview)
+### Remix Interface (overview)
   
 
   <img src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/Remix.png">
@@ -124,7 +132,7 @@ Tuples- Group multiple values (e.g., (uint, string, address)).
   * Constructor function
   * Functions
 
-### Coding A Simple Smart Contract
+### ⌨️ Coding A Simple Smart Contract
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -147,7 +155,7 @@ contract NameStorage {
 
 ```
 
-### Syntax Explanation
+### 📚 Syntax Explanation
 * SPDX-License-Identifier: License type is set to MIT. It allows users to do almost anything they want with the software and its documentation.
 * pragma solidity ^0.8.0: This specifies that the contract is written for Solidity version 0.8.0 or later.
 * contract NameStorage: Defines a new contract named NameStorage.
@@ -165,7 +173,7 @@ This contract allows users to store their name on the blockchain and retrieve it
 
 
 
-## Support
+## 🤝 Support
 
 Join the Celo Ghana Developers Community
 
@@ -173,7 +181,7 @@ Join the Celo Ghana Developers Community
 
 
 <!-- CONTACT -->
-## Contact
+## 📧 Contact
 Ernest Akakpo ( Community Manager [Ghana] )<br>
 email: korkuernest@gmail.com
 
