@@ -111,16 +111,24 @@ Tuples- Group multiple values (e.g., (uint, string, address)).
 ### Coding A Simple Smart Contract
 
 ```solidity
-// SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.7.0 <0.9.0;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
 
-contract HelloWorld {
+contract NameStorage {
+    // State variable to store the name
+    string private name;
 
-    constructor() {}
+    // Function to set the name
+    function setName(string calldata _name) external {
+        name = _name;
+    }
 
-    function helloWorld() public view returns (string memory) {}
-
+    // Function to get the stored name
+    function getName() external view returns (string memory) {
+        return name;
+    }
 }
+
 ```
 
 ### References for Solidity
