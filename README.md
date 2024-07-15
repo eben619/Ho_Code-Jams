@@ -1,6 +1,9 @@
-<p ></p>
+<div style="align-items:center">
+  <img src="" alt="Celo Logo">
+<p >CELO AFRICA DAO</p>
+</div>
 
-### 🪙WALLETS & TRANSACTIONS
+### 🔄WALLETS & TRANSACTIONS
 
 <b>* What is a wallet</b><br>
   Wallets are tools that create accounts, manage keys, and help users transact on the Celo network.
