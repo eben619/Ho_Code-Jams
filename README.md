@@ -169,10 +169,6 @@ Join the Celo Ghana Developers Community
 <img width="350px" src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/CeloGhanaCommunity.jpg" align="center" alt="Celo Ghana WhatsApp"/>
 
 
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
 <!-- CONTACT -->
 ## Contact
 Ernest Akakpo ( Community Manager [Ghana] )<br>
