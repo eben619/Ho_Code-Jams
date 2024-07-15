@@ -1,6 +1,6 @@
 <p ></p>
 
-### WALLETS & TRANSACTIONS
+### 🪙WALLETS & TRANSACTIONS
 
 <b>* What is a wallet</b><br>
   Wallets are tools that create accounts, manage keys, and help users transact on the Celo network.
