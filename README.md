@@ -167,8 +167,17 @@ contract NameStorage {
 
 This contract allows users to store their name on the blockchain and retrieve it later. The setName function is used to set the name, and the getName function is used to retrieve the stored name.
 
-  
+### 🔧 Compile the Contract
+With the contract above as the active tab in the Editor, compile the contract.
+A quick way to compile is to hit ctrl + s. You can also compile by going to the Solidity compiler and clicking the compile button, or by right clicking a file in the File Explorer, or by clicking the play button at the top of the Editor.
 
+### 🚀 Deploying the contract
+Go to the Deploy & Run Transactions plugin at the sidebar section.
+At the top of this plugin is the Environment select box. Here you choose Injected Provider which is used to connect Remix with a Browser Wallet (e.g. Metamask) which is generally for deploying to a public network.
+Make sure you have switched your wallet network to Celo's Alfajores Testnet. Deploy your contract and approve the contract creation transaction from the MetaMask pop-up then wait for the confirmation pop-up.
+With the deployment done, we can go ahead and verify the smart contract too.
+
+  
 ### References for Solidity
 
 <https://docs.soliditylang.org/en/latest/>
@@ -180,7 +189,9 @@ This contract allows users to store their name on the blockchain and retrieve it
 
 Celo Composer allows you to quickly build, deploy, and iterate on decentralized applications using Celo. It provides a number of frameworks, examples, and Celo specific functionality to help you get started with your next dApp.
 
-
+* Prerequisites
+   * <a href='https://nodejs.org/en/download/package-manager'>Node.js (v20 or higher)</a>
+   * <a href="https://git-scm.com/downloads">Git (v2.38 or higher)</a>
 
 ## 🤝 Support
 
