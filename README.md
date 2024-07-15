@@ -131,6 +131,18 @@ contract NameStorage {
 
 ```
 
+### Syntax Explanation
+* SPDX-License-Identifier: License type is set to MIT. It allows users to do almost anything they want with the software and its documentation.
+* pragma solidity ^0.8.0: This specifies that the contract is written for Solidity version 0.8.0 or later.
+* contract NameStorage: Defines a new contract named NameStorage.
+* string private name: A state variable to store the name, marked as private to restrict direct access.
+* setName: A function that accepts a string parameter _name and stores it in the state variable name.
+* getName: A function that returns the stored name. It is marked as view because it does not modify the state.
+
+This contract allows users to store their name on the blockchain and retrieve it later. The setName function is used to set the name, and the getName function is used to retrieve the stored name.
+
+  
+
 ### References for Solidity
 
 <https://docs.soliditylang.org/en/latest/>
