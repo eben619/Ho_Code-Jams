@@ -132,7 +132,7 @@ Tuples- Group multiple values (e.g., (uint, string, address)).
   * Constructor function
   * Functions
 
-### ⌨️ Coding A Simple Smart Contract
+### ⌨️ Writing A Simple Smart Contract
 
 ```solidity
 // SPDX-License-Identifier: MIT
