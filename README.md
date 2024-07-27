@@ -249,7 +249,9 @@ contract EbenezerToken {
 <b>
 Inheritance in Solidity allows a contract to use the functions, events, and state variables of another contract. This enables code reuse and modularity. 
 </b>
+
 When Ebenezer inherits from ERC20, it means that Ebenezer will have all the functionalities of the ERC20 contract, such as token transfer, balance checking, and allowance handling.
+
 <b>contract Ebenezer:</b>
 This declares a new contract named Ebenezer.
 
