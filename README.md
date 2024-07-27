@@ -24,7 +24,6 @@ Celo Foundation is at the forefront of the Web3 revolution, driving the adoption
 <b>* Finding wallet applications</b><br>
   There are currently some compatible wallets for Celo and other EVM compatible networks.<br>
   Metamask <a href="https://metamask.io/download/" target='_blank'>Click Here To Download Metamask</a><br>
-  Trustwallet <a href="https://trustwallet.com/download" target='_blank'>Click Here To Download Trustwallet</a><br>
 
 <b>* Connecting to Celo Alfajores testnet</b><br>
 * <a href="http://alfajores.celoscan.io" rel="noreferrer">Celo's Alfajores Testnet Explorer</a>
