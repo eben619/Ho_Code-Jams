@@ -246,19 +246,19 @@ contract EbenezerToken {
 
 ### 📚 Syntax Explanation
 
-contract Ebenezer:
+*contract Ebenezer:
 This declares a new contract named Ebenezer.
 
-is ERC20:
+*is ERC20:
 The keyword is indicates that the Ebenezer contract inherits from another contract, in this case, the ERC20 contract.
-
 The imported ERC20 contract is provided by OpenZeppelin that implements the standard ERC20 token functionality.
-
 The syntax constructor() ERC20("Ebenezer", "EBN") is actually shorthand for calling the constructor of the inherited ERC20 contract. Here’s a detailed explanation:
 
-constructor(): Declares the constructor function of the EbenezerToken contract.
+*constructor(): 
+Declares the constructor function of the EbenezerToken contract.
 
-ERC20("Ebenezer", "EBN"): Calls the constructor of the parent ERC20 contract, passing in the name and symbol for the token.
+*ERC20("Ebenezer", "EBN"): 
+Calls the constructor of the parent ERC20 contract, passing in the name and symbol for the token.
 
 In essence, this constructor setup ensures that when the EbenezerToken is deployed, it is properly initialized as an ERC20 token with the specified name and symbol, and it also creates the initial token supply.
 
