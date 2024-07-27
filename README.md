@@ -2,7 +2,8 @@
   <img src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/celo_isotype.svg" alt="Celo Logo" width="150px">
 <h1 >CELO AFRICA DAO</h1>
 </div>
-### Link To Spreadsheet
+
+### Link to Spreadsheet
 
 https://docs.google.com/spreadsheets/d/1OM0gepjTedf4enDNzPCffvg0_ghi5vDiSswkMgabYp4/edit
 
