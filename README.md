@@ -148,7 +148,6 @@ Tuples- Group multiple values (e.g., (uint, string, address)).
 pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 
 contract Ebenezer is ERC20, ERC20Permit {
     constructor() ERC20("Ebenezer", "EBN") ERC20Permit("Ebenezer") {
@@ -246,14 +245,34 @@ contract EbenezerToken {
 </detail>
 
 ### 📚 Syntax Explanation
-* SPDX-License-Identifier: License type is set to MIT. It allows users to do almost anything they want with the software and its documentation.
-* pragma solidity ^0.8.0: This specifies that the contract is written for Solidity version 0.8.0 or later.
-* contract NameStorage: Defines a new contract named NameStorage.
-* string private name: A state variable to store the name, marked as private to restrict direct access.
-* setName: A function that accepts a string parameter _name and stores it in the state variable name.
-* getName: A function that returns the stored name. It is marked as view because it does not modify the state.
 
-This contract allows users to store their name on the blockchain and retrieve it later. The setName function is used to set the name, and the getName function is used to retrieve the stored name.
+contract Ebenezer:
+This declares a new contract named Ebenezer.
+
+is ERC20:
+The keyword is indicates that the Ebenezer contract inherits from another contract, in this case, the ERC20 contract.
+
+The imported ERC20 contract is provided by OpenZeppelin that implements the standard ERC20 token functionality.
+
+The syntax constructor() ERC20("Ebenezer", "EBN") is actually shorthand for calling the constructor of the inherited ERC20 contract. Here’s a detailed explanation:
+
+constructor(): Declares the constructor function of the EbenezerToken contract.
+
+ERC20("Ebenezer", "EBN"): Calls the constructor of the parent ERC20 contract, passing in the name and symbol for the token.
+
+In essence, this constructor setup ensures that when the EbenezerToken is deployed, it is properly initialized as an ERC20 token with the specified name and symbol, and it also creates the initial token supply.
+
+The line _mint(msg.sender, 10000 * 10 ** decimals()); in an ERC20 contract mints new tokens and assigns them to the deployer's address. Here's a breakdown of what each part does:
+
+_mint: This function is an internal function provided by OpenZeppelin's ERC20 contract. It creates new tokens and assigns them to a specified address, increasing the total supply of tokens.
+
+msg.sender: This is a global variable in Solidity that refers to the address that is currently calling the function. In the context of a constructor, msg.sender is the address that deployed the contract.
+
+10000 * 10 ** decimals(): This calculates the number of tokens to be minted, taking into account the token's decimal places. Here's how this calculation works:
+
+decimals() is a function in the ERC20 contract that returns the number of decimal places the token uses, typically 18 for most ERC20 tokens.
+10 ** decimals() calculates 10 to the power of the number of decimals, which in the case of 18 decimals would be 10^18.
+10000 * 10 ** decimals() then multiplies 10,000 by 10^18 to get the total number of smallest units (often called "wei" in the context of ERC20 tokens) for 10,000 tokens.
 
 ### 🔧 Compile the Contract
 With the contract above as the active tab in the Editor, compile the contract.
