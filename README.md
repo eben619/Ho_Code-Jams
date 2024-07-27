@@ -6,6 +6,9 @@
 ### Link to presentation
 https://docs.google.com/presentation/d/1XG0hFRW2LgM-0SekA_NamRK5Vw1vSL41/edit?usp=sharing&rtpof=true&sd=true
 
+### Link  for participation form
+https://forms.gle/hwGaa56RTWxi9QtM6
+
 
 ## INTRODUCTION
 
