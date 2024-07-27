@@ -3,6 +3,7 @@
 <h1 >CELO AFRICA DAO</h1>
 </div>
 ### Link To Spreadsheet
+
 https://docs.google.com/spreadsheets/d/1OM0gepjTedf4enDNzPCffvg0_ghi5vDiSswkMgabYp4/edit
 
 ### Link to presentation
