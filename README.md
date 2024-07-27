@@ -155,13 +155,14 @@ contract Ebenezer is ERC20, ERC20Permit {
 
 Without the imports from openzeppelin a normal ERC20 contract would look like this.
 <detail>
+<summary>
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-contract SimpleERC20 {
-    string public name = "SimpleToken";
-    string public symbol = "STK";
+contract EbenezerToken {
+    string public name = "Ebenezer";
+    string public symbol = "EBN";
     uint8 public decimals = 18;
     uint256 public totalSupply;
 
@@ -171,8 +172,8 @@ contract SimpleERC20 {
     event Transfer(address indexed from, address indexed to, uint256 value);
     event Approval(address indexed owner, address indexed spender, uint256 value);
 
-    constructor(uint256 initialSupply) {
-        totalSupply = initialSupply * 10 ** uint256(decimals);
+    constructor() {
+        totalSupply = 10000 * 10 ** uint256(decimals);
         balances[msg.sender] = totalSupply;
         emit Transfer(address(0), msg.sender, totalSupply);
     }
@@ -235,7 +236,9 @@ contract SimpleERC20 {
     }
 }
 
+
 ```
+</summary>
 </detail>
 
 ### 📚 Syntax Explanation
