@@ -140,26 +140,103 @@ Tuples- Group multiple values (e.g., (uint, string, address)).
 
 ### ⌨️ Writing A Simple Smart Contract
 
-```solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+``` pragma solidity ^0.80;
 
-contract NameStorage {
-    // State variable to store the name
-    string private name;
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 
-    // Function to set the name
-    function setName(string calldata _name) external {
-        name = _name;
-    }
-
-    // Function to get the stored name
-    function getName() external view returns (string memory) {
-        return name;
+contract Ebenezer is ERC20, ERC20Permit {
+    constructor() ERC20("Ebenezer", "EBN") ERC20Permit("Ebenezer") {
+        _mint(msg.sender, 10000 * 10 ** decimals());
     }
 }
 
 ```
+
+Without the imports from openzeppelin a normal ERC20 contract would look like this.
+<detail>
+```
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+contract SimpleERC20 {
+    string public name = "SimpleToken";
+    string public symbol = "STK";
+    uint8 public decimals = 18;
+    uint256 public totalSupply;
+
+    mapping(address => uint256) private balances;
+    mapping(address => mapping(address => uint256)) private allowances;
+
+    event Transfer(address indexed from, address indexed to, uint256 value);
+    event Approval(address indexed owner, address indexed spender, uint256 value);
+
+    constructor(uint256 initialSupply) {
+        totalSupply = initialSupply * 10 ** uint256(decimals);
+        balances[msg.sender] = totalSupply;
+        emit Transfer(address(0), msg.sender, totalSupply);
+    }
+
+    function balanceOf(address account) public view returns (uint256) {
+        return balances[account];
+    }
+
+    function transfer(address recipient, uint256 amount) public returns (bool) {
+        require(recipient != address(0), "Transfer to the zero address");
+        require(balances[msg.sender] >= amount, "Transfer amount exceeds balance");
+
+        balances[msg.sender] -= amount;
+        balances[recipient] += amount;
+        emit Transfer(msg.sender, recipient, amount);
+        return true;
+    }
+
+    function approve(address spender, uint256 amount) public returns (bool) {
+        require(spender != address(0), "Approve to the zero address");
+
+        allowances[msg.sender][spender] = amount;
+        emit Approval(msg.sender, spender, amount);
+        return true;
+    }
+
+    function allowance(address owner, address spender) public view returns (uint256) {
+        return allowances[owner][spender];
+    }
+
+    function transferFrom(address sender, address recipient, uint256 amount) public returns (bool) {
+        require(sender != address(0), "Transfer from the zero address");
+        require(recipient != address(0), "Transfer to the zero address");
+        require(balances[sender] >= amount, "Transfer amount exceeds balance");
+        require(allowances[sender][msg.sender] >= amount, "Transfer amount exceeds allowance");
+
+        balances[sender] -= amount;
+        balances[recipient] += amount;
+        allowances[sender][msg.sender] -= amount;
+        emit Transfer(sender, recipient, amount);
+        return true;
+    }
+
+    function mint(address account, uint256 amount) public returns (bool) {
+        require(account != address(0), "Mint to the zero address");
+
+        totalSupply += amount;
+        balances[account] += amount;
+        emit Transfer(address(0), account, amount);
+        return true;
+    }
+
+    function burn(uint256 amount) public returns (bool) {
+        require(balances[msg.sender] >= amount, "Burn amount exceeds balance");
+
+        totalSupply -= amount;
+        balances[msg.sender] -= amount;
+        emit Transfer(msg.sender, address(0), amount);
+        return true;
+    }
+}
+
+```
+</detail>
 
 ### 📚 Syntax Explanation
 * SPDX-License-Identifier: License type is set to MIT. It allows users to do almost anything they want with the software and its documentation.
