@@ -152,10 +152,10 @@ contract Ebenezer is ERC20, ERC20Permit {
 }
 
 ```
-
-Without the imports from openzeppelin a normal ERC20 contract would look like this.
 <detail>
-<summary>
+<summary>Without the imports from openzeppelin a normal ERC20 contract would look like this.</summary>
+
+
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
@@ -238,7 +238,6 @@ contract EbenezerToken {
 
 
 ```
-</summary>
 </detail>
 
 ### 📚 Syntax Explanation
