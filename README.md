@@ -246,27 +246,29 @@ contract EbenezerToken {
 
 ### 📚 Syntax Explanation
 
-*contract Ebenezer:
+<b>contract Ebenezer:</b>
 This declares a new contract named Ebenezer.
 
-*is ERC20:
+<b>is ERC20:</b>
 The keyword is indicates that the Ebenezer contract inherits from another contract, in this case, the ERC20 contract.
 The imported ERC20 contract is provided by OpenZeppelin that implements the standard ERC20 token functionality.
 The syntax constructor() ERC20("Ebenezer", "EBN") is actually shorthand for calling the constructor of the inherited ERC20 contract. Here’s a detailed explanation:
 
-*constructor(): 
+<b>*constructor():</B>
 Declares the constructor function of the EbenezerToken contract.
 
-*ERC20("Ebenezer", "EBN"): 
+<b>*ERC20("Ebenezer", "EBN"):</b>
 Calls the constructor of the parent ERC20 contract, passing in the name and symbol for the token.
 
 In essence, this constructor setup ensures that when the EbenezerToken is deployed, it is properly initialized as an ERC20 token with the specified name and symbol, and it also creates the initial token supply.
 
 The line _mint(msg.sender, 10000 * 10 ** decimals()); in an ERC20 contract mints new tokens and assigns them to the deployer's address. Here's a breakdown of what each part does:
 
-_mint: This function is an internal function provided by OpenZeppelin's ERC20 contract. It creates new tokens and assigns them to a specified address, increasing the total supply of tokens.
+<b>_mint:</b> 
+This function is an internal function provided by OpenZeppelin's ERC20 contract. It creates new tokens and assigns them to a specified address, increasing the total supply of tokens.
 
-msg.sender: This is a global variable in Solidity that refers to the address that is currently calling the function. In the context of a constructor, msg.sender is the address that deployed the contract.
+<b>msg.sender:</b>
+This is a global variable in Solidity that refers to the address that is currently calling the function. In the context of a constructor, msg.sender is the address that deployed the contract.
 
 10000 * 10 ** decimals(): This calculates the number of tokens to be minted, taking into account the token's decimal places. Here's how this calculation works:
 
