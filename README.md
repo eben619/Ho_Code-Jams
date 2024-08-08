@@ -5,13 +5,12 @@
 
 ### Link to Spreadsheet
 
-https://docs.google.com/spreadsheets/d/1OM0gepjTedf4enDNzPCffvg0_ghi5vDiSswkMgabYp4/edit
+https://docs.google.com/spreadsheets/d/1buFTo3TPG-maVZzMGhYcBciK-JIbvC2R6xZgBkn08FM/edit
 
-### Link to presentation
-https://docs.google.com/presentation/d/1XG0hFRW2LgM-0SekA_NamRK5Vw1vSL41/edit?usp=sharing&rtpof=true&sd=true
 
 ### Link  for participation form
-https://forms.gle/7TU3UhT7UZ5D6jJD6
+
+https://docs.google.com/forms/d/e/1FAIpQLSfXogc7lHEgz9ajFhPEVyY7y33_esNzHgR3E8bH4LVz4Yconw/viewform
 
 
 ## INTRODUCTION
