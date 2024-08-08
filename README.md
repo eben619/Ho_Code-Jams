@@ -149,16 +149,17 @@ Tuples- Group multiple values (e.g., (uint, string, address)).
 ```
 
 // SPDX-License-Identifier: MIT
+// Compatible with OpenZeppelin Contracts ^5.0.0
 pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 
-contract Ebenezer is ERC20, ERC20Permit {
-    constructor() ERC20("Ebenezer", "EBN") ERC20Permit("Ebenezer") {
-        _mint(msg.sender, 10000 * 10 ** decimals());
+contract Ebenezer is ERC20 {
+    constructor() ERC20("Ebenezer", "$EBN") {
+        _mint(msg.sender, 100000 * 10 ** decimals());
     }
 }
+
 
 ```
 <detail>
@@ -273,7 +274,7 @@ Calls the constructor of the parent ERC20 contract, passing in the name and symb
 
 In essence, this constructor setup ensures that when the EbenezerToken is deployed, it is properly initialized as an ERC20 token with the specified name and symbol, and it also creates the initial token supply.
 
-The line _mint(msg.sender, 10000 * 10 ** decimals()); in an ERC20 contract mints new tokens and assigns them to the deployer's address. Here's a breakdown of what each part does:
+The line _mint(msg.sender, 100000 * 10 ** decimals()); in an ERC20 contract mints new tokens and assigns them to the deployer's address. Here's a breakdown of what each part does:
 
 <b>_mint:</b> 
 This function is an internal function provided by OpenZeppelin's ERC20 contract. It creates new tokens and assigns them to a specified address, increasing the total supply of tokens.
