@@ -273,7 +273,7 @@ Calls the constructor of the parent ERC20 contract, passing in the name and symb
 
 In essence, this constructor setup ensures that when the EbenezerToken is deployed, it is properly initialized as an ERC20 token with the specified name and symbol, and it also creates the initial token supply.
 
-The line _mint(msg.sender, 100000 * 10 ** decimals()); in an ERC20 contract mints new tokens and assigns them to the deployer's address. Here's a breakdown of what each part does:
+The line <b>_mint(msg.sender, 100000 * 10 ** decimals())</b> in an ERC20 contract mints new tokens and assigns them to the deployer's address. Here's a breakdown of what each part does:
 
 <b>_mint:</b> 
 This function is an internal function provided by OpenZeppelin's ERC20 contract. It creates new tokens and assigns them to a specified address, increasing the total supply of tokens.
@@ -281,11 +281,13 @@ This function is an internal function provided by OpenZeppelin's ERC20 contract.
 <b>msg.sender:</b>
 This is a global variable in Solidity that refers to the address that is currently calling the function. In the context of a constructor, msg.sender is the address that deployed the contract.
 
-10000 * 10 ** decimals(): This calculates the number of tokens to be minted, taking into account the token's decimal places. Here's how this calculation works:
+<b>10000 * 10 ** decimals():</b> This calculates the number of tokens to be minted, taking into account the token's decimal places. Here's how this calculation works:
 
-decimals() is a function in the ERC20 contract that returns the number of decimal places the token uses, typically 18 for most ERC20 tokens.
-10 ** decimals() calculates 10 to the power of the number of decimals, which in the case of 18 decimals would be 10^18.
-10000 * 10 ** decimals() then multiplies 10,000 by 10^18 to get the total number of smallest units (often called "wei" in the context of ERC20 tokens) for 10,000 tokens.
+<b>decimals()</b> is a function in the ERC20 contract that returns the number of decimal places the token uses, typically 18 for most ERC20 tokens.
+
+<b>10 ** decimals()</b> calculates 10 to the power of the number of decimals, which in the case of 18 decimals would be 10^18.
+
+<b>10000 * 10 ** decimals()</b> then multiplies 10,000 by 10^18 to get the total number of smallest units (often called "wei" in the context of ERC20 tokens) for 10,000 tokens.
 
 ### 🔧 Compile the Contract
 With the contract above as the active tab in the Editor, compile the contract.
@@ -319,14 +321,6 @@ Join the Celo Ghana Developers Community
 
 <img width="350px" src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/CeloGhanaCommunity.jpg" align="center" alt="Celo Ghana WhatsApp"/>
 
-
-<!-- CONTACT -->
-## 📧 Contact
-Ernest Akakpo ( Community Manager [Ghana] )<br>
-email: korkuernest@gmail.com
-
-Ebenezer Agyenim-Boateng ( Blockchain Developer )<br>
-email: ebenyawboateng72@gmail.com
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
