@@ -3,7 +3,7 @@
 <h1 >CELO AFRICA DAO</h1>
 </div>
 
-### Link for Feedback form
+### Link To Access Feedback form
 
 https://docs.google.com/forms/d/e/1FAIpQLSfXogc7lHEgz9ajFhPEVyY7y33_esNzHgR3E8bH4LVz4Yconw/viewform
 
