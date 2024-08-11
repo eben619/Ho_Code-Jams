@@ -3,12 +3,7 @@
 <h1 >CELO AFRICA DAO</h1>
 </div>
 
-### Link to Spreadsheet
-
-https://docs.google.com/spreadsheets/d/1buFTo3TPG-maVZzMGhYcBciK-JIbvC2R6xZgBkn08FM/edit
-
-
-### Link  for participation form
+### Link for Feedback form
 
 https://docs.google.com/forms/d/e/1FAIpQLSfXogc7lHEgz9ajFhPEVyY7y33_esNzHgR3E8bH4LVz4Yconw/viewform
 
