@@ -7,9 +7,8 @@
 
 https://docs.google.com/forms/d/e/1FAIpQLSfXogc7lHEgz9ajFhPEVyY7y33_esNzHgR3E8bH4LVz4Yconw/viewform
 
-
-## INTRODUCTION
-
+<details><summary><div align="">INTRODUCTION</div></summary><br>
+  
 ### 🌐 What Is Web3?
 Web3, also known as the decentralized web, represents the next generation of the internet, where users have control over their data and interactions are facilitated directly between parties without the need for intermediaries. Unlike Web2, which is dominated by centralized platforms, Web3 leverages blockchain technology to ensure transparency, security, and decentralization. It encompasses a wide array of technologies and concepts, including cryptocurrencies, smart contracts, decentralized finance (DeFi), and decentralized autonomous organizations (DAOs).
 
@@ -30,8 +29,10 @@ Celo Foundation is at the forefront of the Web3 revolution, driving the adoption
 * <a href="http://alfajores.celoscan.io" rel="noreferrer">Celo's Alfajores Testnet Explorer</a>
 * <a href="http://faucet.celo.org/alfajores" rel="noreferrer">Funding Your Wallet With Testnet Tokens</a>
 
-### Celo, Ethereum & The Evm (Ethereum Virtual Machine).
+</details>
 
+<details><summary><div align="">Celo, Ethereum & The Evm (Ethereum Virtual Machine)</div></summary><br>
+  
 Ethereum is characterised by Turing completeness, as the EVM allows any computation to be performed if adequate resources are provided.
 In simple terms  it is able to use its code base to perform virtually any task, as long as it has the correct instructions, enough time and processing power.
 
@@ -71,8 +72,9 @@ A DApp is composed of at least:
 
 * Contract ABI ( "ABI" stands for Application Binary Interface in the context of Ethereum smart contracts. It specifies how to interact with a smart contract deployed on the blockchain.)
 
-### Introduction To Solidity.
-
+</details>
+<details><summary><div align="">Introduction To Solidity</div></summary><br>
+  
 Solidity is an EVM compatible language which supports a variety of data types that can be categorized mainly into value types and reference types. Other types such as function types and Tuples also exist.
 
 <b>*Value Types</b>-
@@ -105,7 +107,9 @@ Tuples- Group multiple values (e.g., (uint, string, address)).
 
 📧 Learn the [Solidity globals and units](https://solidity.readthedocs.io/en/v0.8.19/units-and-global-variables.html)
 
-### 💻 Hands On Coding - Remix IDE
+</details>
+<details><summary><div align="">💻 Hands On Coding - Remix IDE</div></summary><br>
+  
 * REQUIREMENTS
   * Web Browser (Chrome)
   * Internet Connection
@@ -138,8 +142,9 @@ Tuples- Group multiple values (e.g., (uint, string, address)).
   * Constructor function
   * Functions
 
-### ⌨️ Writing A Simple Smart Contract
-
+</details>
+<details><summary><div align="">⌨️ Writing A Simple Smart Contract</div></summary><br>
+  
 ```
 
 // SPDX-License-Identifier: MIT
@@ -299,9 +304,9 @@ With the deployment done, we can go ahead and verify the smart contract too.
 
 <https://docs.soliditylang.org/en/latest/>
 
-
-### Introduction To Celo Composer
-
+</details>
+<details><summary><div align="">Introduction To Celo Composer</div></summary><br>
+  
 <a href="https://github.com/celo-org/celo-composer/blob/main/README.md">CELO COMPOSER</a>
 
 Celo Composer allows you to quickly build, deploy, and iterate on decentralized applications using Celo. It provides a number of frameworks, examples, and Celo specific functionality to help you get started with your next dApp.
@@ -309,6 +314,8 @@ Celo Composer allows you to quickly build, deploy, and iterate on decentralized 
 * Prerequisites
    * <a href='https://nodejs.org/en/download/package-manager'>Node.js (v20 or higher)</a>
    * <a href="https://git-scm.com/downloads">Git (v2.38 or higher)</a>
+
+</details>
 
 ## 🤝 Support
 
