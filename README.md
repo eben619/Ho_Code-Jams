@@ -327,7 +327,7 @@ Celo Composer allows you to quickly build, deploy, and iterate on decentralized 
 
 ## 🤝 Support
 
-Join the Celo Ghana Developers Community
+Join the Celo Ghana Developer WhatsApp Community
 
 <img width="350px" src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/CeloGhanaCommunity.jpg" align="center" alt="Celo Ghana WhatsApp"/>
 
