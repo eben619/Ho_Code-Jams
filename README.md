@@ -3,6 +3,8 @@
 <h1 >CELO AFRICA DAO</h1>
 </div>
 
+Celo has successfully transitioned from a Layer-1 blockchain to an Ethereum Layer-2 network using Optimism's OP Stack. This transition, which was finalized on March 26, 2025, involved migrating from the original Celo blockchain to a layer-2 solution built on top of Ethereum. The move aims to enhance transaction speeds, reduce costs, and improve interoperability with the Ethereum ecosystem.
+
 Celo L2 Docs
 
 https://docs.celo.org/
