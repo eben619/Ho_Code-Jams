@@ -326,6 +326,11 @@ Celo Composer allows you to quickly build, deploy, and iterate on decentralized 
    * <a href="https://git-scm.com/downloads">Git (v2.38 or higher)</a>
 
 </details>
+<details><summary><div align="">Introduction Trynoah.ai On Celo</div></summary><br>
+  
+https://trynoah.ai/
+
+</details>
 
 ## 🤝 Support
 
